@@ -1,0 +1,286 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    background: url(../img/bg-body.png);
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.box {
+    background: #fff;
+    padding-top: 20px;
+}
+
+.navbar {
+   margin-top: 20px;
+}
+
+.logo-bar {
+    padding-top: 10px;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    /*height: 130px;*/
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #ffd203;
+}
+
+.ratings .pull-right {
+    color: #666;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+    height: 320px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.hero-feature img {
+    height: 210px;
+    width: auto;
+}
+
+.hero-feature .caption > p {
+    min-height:  40px;
+}
+
+.navbar-form form {
+    float: left;
+}
+
+.navbar-form .cart {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 1px;
+    float: right;   
+}
+
+.navbar-form .cart a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar-form .cart i {
+    position: relative;
+    top:5px;
+}
+
+.glyphicon-earphone {
+    position: relative;
+    top:16px;
+    font-size: 21px;
+    right: 5px;
+}
+
+.catalog  .thumbnail img{
+    height: 150px;
+    width: auto;
+}
+
+.catalog .caption {
+    height: 100px;
+}
+
+.seo-text img {
+    margin-right: 20px;
+}
+
+.logo-bar .phone h4   {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.logo-bar .phone {
+    padding-top: 25px;
+}
+
+footer {
+    background:  #5a4a44;
+    margin:20px 0 0; 
+    padding: 40px 0;
+    color:  #fff; 
+}
+
+footer a {
+    color: #c9c9c9;
+}
+
+footer ul li {
+    color: #c9c9c9;
+    line-height: 1.8;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer ul {
+    margin-left: 20px;
+    padding:  0;
+}
+
+footer .col-lg-3 {
+    border-right: 1px solid #717578;
+    min-height: 276px;
+}
+
+footer .col-lg-3:last-child {
+    border: 0;
+}
+
+.content h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.description h4 {
+    font-weight: bold;
+    color: #444;
+}
+
+.description h3 {
+    font-size: 21px;
+}
+
+.buy-block h1 {
+    color: #000;
+}
+
+.buy-block .ratings .glyphicon{
+ font-size: 18px;
+ position: relative;
+ top:-1px;
+} 
+
+.gallery .col-md-2 {
+    padding:  0;
+}
+
+.gallery .col-md-2 li {
+    margin-bottom: 10px;
+}
+
+.buy-block .alert-warning {
+    padding: 20px 10px;
+}
+
+.buy-block h4 {
+    padding: 0;
+    margin: 0;
+}
+
+/*.alert,
+.img-thumbnail, .list-group-item, .thumbnail {
+    border-radius: 0 !important;
+}*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-feature {
+        height: auto;
+    }
+    .hero-feature .caption > p {
+        min-height: 62px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .logo-bar .phone {
+        padding-top: 0;
+        text-align: center;
+    }
+    .logo-bar .phone h4:last-child {
+        padding-left: 25px;
+    }
+     .logo-bar .lead {
+        text-align: center;
+     }
+     .logo-bar .img-responsive {
+        margin: 0 auto;
+     }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .logo-bar .phone {
+        padding-top: 0;
+        text-align: center;
+    }
+    .logo-bar .phone h4:last-child {
+        padding-left: 25px;
+    }
+     .logo-bar .lead {
+        text-align: center;
+     }
+     .logo-bar .img-responsive {
+         margin: 0 auto;
+      }
+      .hero-feature {
+          height: auto;
+      }
+}
+
+
+
+
+
+
+
+
+
